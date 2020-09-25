@@ -12,7 +12,7 @@ Implement IBM Model 1, and plot log probability of training and test files.
 ## Usage Instruction
 
 For the full data, only the log-likelihoods will be printed on the console. 
-For the sample data, the exact outputs instructed in the m1.out file will be printed. 
+For the sample data, the exact output instructed in the m1.out file will be printed. 
 
 - To run the program on the sample data, use the following command:
 ```
