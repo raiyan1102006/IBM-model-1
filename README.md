@@ -1,15 +1,16 @@
 # IBM-model-1
 Machine Translation using IBM Model 1
 
-README
-======
+Author: Raiyan Abdul Baten.
 
-Homework 5
-Raiyan Abdul Baten
+This project was done as part of a homework in the CSC448 Statistical Speech and Language Processing course at the University of Rochester.
+
+### Task
 
 
-Usage Instruction
-=================
+
+### Usage Instruction
+
 For the full data, only the log-likelihoods will be printed on the console. 
 For the sample data, the exact outputs from the class websites will be printed. 
 
@@ -23,7 +24,7 @@ python3 ibm1.py
 
 
 
-Results on full data
+### Results on full data
 ====================
 Please note that in the output_LL.jpg figure, iteration 0 is not plotted to make things visually pleasing.
 
