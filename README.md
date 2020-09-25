@@ -1,12 +1,12 @@
 # IBM-model-1
 Machine Translation using IBM Model 1
 
-Author: Raiyan Abdul Baten.
+Author: Raiyan Abdul Baten
 
 This project was done as part of a homework in the CSC448 Statistical Speech and Language Processing course at the University of Rochester.
 
 ## Task
-
+Implement IBM Model 1, and compute log probability of training and test files.
 
 
 ## Usage Instruction
