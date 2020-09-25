@@ -12,7 +12,7 @@ Implement IBM Model 1, and plot log probability of training and test files.
 ## Usage Instruction
 
 For the full data, only the log-likelihoods will be printed on the console. 
-For the sample data, the exact outputs from the class websites will be printed. 
+For the sample data, the exact outputs instructed in the m1.out file will be printed. 
 
 - To run the program on the sample data, use the following command:
 ```
@@ -28,7 +28,9 @@ python3 ibm1.py
 ## Output plot
 <img src="output_LL.jpg" alt="drawing" width="600"/>
 
-## Results on full data
+
+
+## Results on the full data
 Please note that in the output_LL.jpg figure, iteration 0 is not plotted to make things visually pleasing.
 
 **Iteration: 0**
@@ -157,7 +159,7 @@ LL computation on test data
 -755376.3901200029
 
  
-Iteration: 14
+**Iteration: 14**
 
 LL computation on train data
 -66559987.31040166
