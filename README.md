@@ -6,7 +6,7 @@ Author: Raiyan Abdul Baten
 This project was done as part of a homework in the CSC448 Statistical Speech and Language Processing course at the University of Rochester.
 
 ## Task
-Implement IBM Model 1, and compute log probability of training and test files.
+Implement IBM Model 1, and plot log probability of training and test files.
 
 
 ## Usage Instruction
@@ -23,9 +23,10 @@ python3 ibm1.py sample
 python3 ibm1.py
 
 
+## Output plot
+<img src="output_LL.jpg" alt="drawing" width="600"/>
 
-### Results on full data
-====================
+## Results on full data
 Please note that in the output_LL.jpg figure, iteration 0 is not plotted to make things visually pleasing.
 
 Iteration: 0
