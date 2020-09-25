@@ -1,0 +1,100 @@
+train.eng
+a b
+a c
+train.fra
+A B
+A C
+
+test.eng
+a b
+test.fra
+A C
+
+
+begin iteration 0
+begin e-step
+sent 0 ['NULL', 'a', 'b'] ['A', 'B']
+prob lookup: NULL A 1e-06 1e-06
+prob lookup: a A 1e-06 2e-06
+prob lookup: b A 1e-06 3e-06
+prob lookup: NULL B 1e-06 1e-06
+prob lookup: a B 1e-06 2e-06
+prob lookup: b B 1e-06 3e-06
+sent 1 ['NULL', 'a', 'c'] ['A', 'C']
+prob lookup: NULL A 1e-06 1e-06
+prob lookup: a A 1e-06 2e-06
+prob lookup: c A 1e-06 3e-06
+prob lookup: NULL C 1e-06 1e-06
+prob lookup: a C 1e-06 2e-06
+prob lookup: c C 1e-06 3e-06
+training corpus logprob -55.2620422319
+test corpus logprob -27.6310211159
+begin m-step
+NULL A 0.666666666667 0.5
+NULL B 0.333333333333 0.25
+NULL C 0.333333333333 0.25
+a A 0.666666666667 0.5
+a B 0.333333333333 0.25
+a C 0.333333333333 0.25
+b A 0.333333333333 0.5
+b B 0.333333333333 0.5
+c A 0.333333333333 0.5
+c C 0.333333333333 0.5
+begin iteration 1
+begin e-step
+sent 0 ['NULL', 'a', 'b'] ['A', 'B']
+prob lookup: NULL A 0.5 0.5
+prob lookup: a A 0.5 1.0
+prob lookup: b A 0.5 1.5
+prob lookup: NULL B 0.25 0.25
+prob lookup: a B 0.25 0.5
+prob lookup: b B 0.5 1.0
+sent 1 ['NULL', 'a', 'c'] ['A', 'C']
+prob lookup: NULL A 0.5 0.5
+prob lookup: a A 0.5 1.0
+prob lookup: c A 0.5 1.5
+prob lookup: NULL C 0.25 0.25
+prob lookup: a C 0.25 0.5
+prob lookup: c C 0.5 1.0
+training corpus logprob -3.58351893846
+test corpus logprob -2.48490464979
+begin m-step
+NULL A 0.666666666667 0.571428571429
+NULL B 0.25 0.214285714286
+NULL C 0.25 0.214285714286
+a A 0.666666666667 0.571428571429
+a B 0.25 0.214285714286
+a C 0.25 0.214285714286
+b A 0.333333333333 0.4
+b B 0.5 0.6
+c A 0.333333333333 0.4
+c C 0.5 0.6
+begin iteration 2
+begin e-step
+sent 0 ['NULL', 'a', 'b'] ['A', 'B']
+prob lookup: NULL A 0.571428571429 0.571428571429
+prob lookup: a A 0.571428571429 1.14285714286
+prob lookup: b A 0.4 1.54285714286
+prob lookup: NULL B 0.214285714286 0.214285714286
+prob lookup: a B 0.214285714286 0.428571428571
+prob lookup: b B 0.6 1.02857142857
+sent 1 ['NULL', 'a', 'c'] ['A', 'C']
+prob lookup: NULL A 0.571428571429 0.571428571429
+prob lookup: a A 0.571428571429 1.14285714286
+prob lookup: c A 0.4 1.54285714286
+prob lookup: NULL C 0.214285714286 0.214285714286
+prob lookup: a C 0.214285714286 0.428571428571
+prob lookup: c C 0.6 1.02857142857
+training corpus logprob -3.47083543059
+test corpus logprob -2.61088411932
+begin m-step
+NULL A 0.740740740741 0.64
+NULL B 0.208333333333 0.18
+NULL C 0.208333333333 0.18
+a A 0.740740740741 0.64
+a B 0.208333333333 0.18
+a C 0.208333333333 0.18
+b A 0.259259259259 0.307692307692
+b B 0.583333333333 0.692307692308
+c A 0.259259259259 0.307692307692
+c C 0.583333333333 0.692307692308
